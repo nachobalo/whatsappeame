@@ -1,0 +1,79 @@
+
+  
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+   background-color: #ccc;
+  }
+
+  h1 {
+    position: absolute;
+    right: 10000px;
+  }
+
+  header {
+    background-color: #128C7E;
+    color: #FFF;
+  }
+
+  main>.card {
+    min-height: 60vh;
+  }
+  .container-fluid{
+    background-color: #FFFD;
+  }
+
+  input[type=button].btn.btn-primary {
+    background-color: #075E54;
+    border-color: #075E54;
+  }
+
+  input[type=button].btn.btn-primary:hover,
+  input[type=button].btn.btn-primary:active,
+  input[type=button].btn.btn-primary:focus-visible,
+  input[type=button].btn.btn-primary:focus {
+    background-color: #075E54dd;
+    border-color: #075e5480;
+    box-shadow: 0 0 0 .25rem #075e5480
+  }
+
+  input.form-control {
+    border-color: #075E54;
+  }
+
+  input.form-control:focus-visible {
+    outline: 0;
+  }
+
+  input.form-control:focus {
+    color: #333;
+    background-color: #fff;
+    border-color: #075e5480;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #075e5480
+  }
+
+  header span {
+    letter-spacing: -2px;
+  }
+
+  .whats-brand {
+    color: #25D366;
+    height: 3rem;
+    width: 3rem;
+
+  }
+
+  .card>.card-header {
+    background-color: #075E54;
+    color: #FFF;
+  }
+
+
+
+  #App{
+    max-width: 480px;
+    margin: auto;
+    background-image: url('./bg.jpg');
+  }
+
